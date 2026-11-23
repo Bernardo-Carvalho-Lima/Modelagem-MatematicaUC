@@ -1,0 +1,14 @@
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configurações locais do editor
+.vscode/
+
+# Arquivos de sistema Windows
+Thumbs.db

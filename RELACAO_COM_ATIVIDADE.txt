@@ -1,0 +1,48 @@
+RELAÇÃO ENTRE O PROJETO E A ATIVIDADE UC9
+
+1. Modelagem matemática orientada a dados
+   - Contexto e dados: dados/vendas_exemplo.csv e main.py.
+   - Relação entre variáveis comerciais e vendas: modulos/correlacao.py.
+
+2. Estatística
+   - Média, mediana, moda, variância, desvio padrão e resumo:
+     modulos/estatistica.py, funções calcular_estatisticas e resumo_completo.
+
+3. Probabilidade
+   - Probabilidades simples, distribuição dos dados e normal:
+     modulos/probabilidade.py, função analisar_probabilidade.
+   - Gráfico da distribuição: modulos/visualizacao.py.
+
+4. Relação entre variáveis
+   - Variável dependente e independentes, Pearson e matriz:
+     modulos/correlacao.py.
+   - Correlação não implica causalidade: explicado no terminal.
+
+5. Inferência estatística
+   - Amostra, hipóteses, teste t, valor-p e intervalo de 95%:
+     modulos/inferencia.py, função realizar_inferencia.
+
+6. Modelos matemáticos
+   - Regressão linear simples e múltipla:
+     modulos/regressao.py.
+   - Comparação dos resultados e previsões no terminal.
+
+7. Aprendizado de máquina supervisionado
+   - Regressão logística, árvore de decisão e KNN:
+     modulos/classificacao.py.
+
+8. Aprendizado de máquina não supervisionado
+   - K-means com três grupos e perfil dos clusters:
+     modulos/agrupamento.py.
+
+9. Avaliação dos modelos
+   - Separação treino/teste, MAE, RMSE e R²:
+     modulos/regressao.py.
+   - Acurácia dos classificadores: modulos/classificacao.py.
+
+10. Visualização
+   - Os sete gráficos solicitados são gerados por:
+     modulos/visualizacao.py e armazenados em resultados/.
+
+11. Integração e execução
+   - O arquivo main.py realiza toda a ordem de execução e apresenta o resumo final.
